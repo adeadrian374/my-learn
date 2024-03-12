@@ -161,7 +161,6 @@ login to console aws
 
 - then add config provider access key & secret key with region from EC2, and saved config provider access key & secret key to variable.tf
 
-```
 5. init your terraform for download package & dependention provisioning
 
 `terraform init`
