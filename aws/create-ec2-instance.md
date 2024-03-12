@@ -162,25 +162,21 @@ login to console aws
 - then add config provider access key & secret key with region from EC2, and saved config provider access key & secret key to variable.tf
 
 ```
-
 5. init your terraform for download package & dependention provisioning
 
 ```
 terraform init
 ```
-
 6. cek validate from config terraform file
 
 ```
 terraform validate
 ```
-
 7. cek requirement spesification about add new config, changes and drop from instance
 
 ```
 terraform plan
 ```
-
 8. create instance based on terraform file, for apply your code to provisioning server
 
 ```
