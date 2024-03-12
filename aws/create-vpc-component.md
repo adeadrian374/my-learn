@@ -143,25 +143,21 @@ resource "aws_route_table_association" "<your-name-association-route-table>" {
   route_table_id = aws_route_table.<your-name-route-table>.id
 }
 ```
-
 4. init your terraform for download package & dependention provisioning
 
 ```
 terraform init
 ```
-
 5. cek validate from config terraform file
 
 ```
 terraform validate
 ```
-
 6. cek requirement spesification about add new config, changes and drop from instance
 
 ```
 terraform plan
 ```
-
 7. create instance based on terraform file, for apply your code to provisioning server
 
 ```
